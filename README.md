@@ -62,41 +62,48 @@ Publish the website in the given URL.
 
 </head>
 
-<body>
-    <div class="bg-dark mx-auto text-center text-white" style="width:24rem; padding-top: 70px">Jai Pradhiksha D P
-        (212221040062)</div>
-    <div class="bg-dark row mx-auto text-center" style="width:24rem;">
+<body style="background-color:rgb(124, 188, 249);">
+
+    <div class="mx-auto text-center text-white"
+        style="width:24rem; margin-top: 50px; padding-top: 20px; padding-bottom: 20px;">
+        <b style="color: rgb(4, 4, 82); font-family: 'Times New Roman';">Jai Pradhiksha D P</b>
+        <b style="color: rgb(4, 4, 82); font-family: 'Times New Roman';">(212221040062)</b>
+    </div>
+    <div class="row mx-auto text-center rounded-4" style="width:24rem; background-color:aliceblue; ">
         <div class="col-12 my-4"><input type="text" name="" id="output"
                 style="width: 100%; height: 50px; border-radius: 25px;"></div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">(</div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">)</div>
-        <div class="m-3 col-2 btn btn-danger rounded-4" onclick="fn(this)">C</div>
-        <div class="m-3 col-2 btn btn-danger rounded-4" onclick="fn(this)" id="back"><i class="bi bi-backspace"></i>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">(</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">)</div>
+        <div class="m-3 col-2 btn btn-outline-danger rounded-4" onclick="fn(this)">C</div>
+        <div class="m-3 col-2 btn btn-outline-danger rounded-4" onclick="fn(this)" id="back"><i
+                class="bi bi-backspace"></i>
         </div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">7</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">8</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">9</div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">*</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">4</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">5</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">6</div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">-</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">1</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">2</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">3</div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">+</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">0</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">.</div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">%</div>
-        <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">/</div>
-        <div class="m-3 col-11 btn btn-warning rounded-4" onclick="fn(this)">=</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">7</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">8</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">9</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">*</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">4</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">5</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">6</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">-</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">1</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">2</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">3</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">+</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">0</div>
+        <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">.</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">%</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">/</div>
+        <div class="m-3 col-11 btn btn-outline-warning rounded-4" onclick="fn(this)">=</div>
     </div>
+
 </body>
 
 </html>
 ```
 ## OUTPUT:
-![image](https://github.com/Jai-Pradhiksha/Calculator/assets/100289733/14188a60-83ec-4583-86e5-f0a4b67fc365)
+![image](https://github.com/Jai-Pradhiksha/Calculator/assets/100289733/aee8ce8a-cbd7-46c8-abf6-db4a2fa3dae6)
+
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
