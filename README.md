@@ -30,15 +30,18 @@ Publish the website in the given URL.
     <title>Jai Pradhiksha</title>
     <script>
         function fn(e) {
+
             if (e.innerHTML == '=') {
 
                 output.value = eval(output.value);
             }
             else if (e.id == 'back') {
+
                 v = output.value;
                 output.value = v.substring(0, v.length - 1);
             }
-            else if (e.innerHTML == 'C') {
+            else if (e.innerHTML == "AC") {
+
                 output.value = '';
             }
             else {
@@ -46,20 +49,24 @@ Publish the website in the given URL.
             }
         }
     </script>
+
+
 </head>
-<body style="background-color:rgb(124, 188, 249);">
+
+<body style="background : url('https://wallpapers.com/images/featured/futuristic-city-background-gfixge3n17657ygy.jpg')">
 
     <div class="mx-auto text-center text-white"
         style="width:24rem; margin-top: 50px; padding-top: 20px; padding-bottom: 20px;">
-        <b style="color: rgb(4, 4, 82); font-family: 'Times New Roman';">Jai Pradhiksha D P</b>
-        <b style="color: rgb(4, 4, 82); font-family: 'Times New Roman';">(212221040062)</b>
+        <b style="color: rgb(249, 249, 252); font-family: 'Times New Roman';">Jai Pradhiksha D P</b>
+        <b style="color: rgb(255, 255, 255); font-family: 'Times New Roman';">(212221040110)</b>
     </div>
     <div class="row mx-auto text-center rounded-4" style="width:24rem; background-color:aliceblue; ">
         <div class="col-12 my-4"><input type="text" name="" id="output"
                 style="width: 100%; height: 50px; border-radius: 25px;"></div>
+                <div class="m-3 col-2 btn btn-outline-danger rounded-4" onclick="fn(this)">AC</div>
+        
         <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">(</div>
-        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">)</div>
-        <div class="m-3 col-2 btn btn-outline-danger rounded-4" onclick="fn(this)">C</div>
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">%</div>
         <div class="m-3 col-2 btn btn-outline-danger rounded-4" onclick="fn(this)" id="back"><i
                 class="bi bi-backspace"></i>
         </div>
@@ -77,14 +84,17 @@ Publish the website in the given URL.
         <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">+</div>
         <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">0</div>
         <div class="m-3 col-2 btn btn-outline-success rounded-4" onclick="fn(this)">.</div>
-        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">%</div>
-        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">/</div>
-        <div class="m-3 col-11 btn btn-outline-warning rounded-4" onclick="fn(this)">=</div>
+        
+        <div class="m-3 col-2 btn btn-outline-primary rounded-4" onclick="fn(this)">=</div>
+        <!-- <div class="m-3 col-11 btn btn-outline-warning rounded-4" onclick="fn(this)">=</div> -->
     </div>
+
 </body>
+
 </html>
 ```
 ## OUTPUT:
-![image](https://github.com/Jai-Pradhiksha/Calculator/assets/100289733/aee8ce8a-cbd7-46c8-abf6-db4a2fa3dae6)
+![image](https://github.com/Jai-Pradhiksha/Calculator/assets/100289733/a361dc07-c7db-4d2d-a7ac-6427dd994c86)
+
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
